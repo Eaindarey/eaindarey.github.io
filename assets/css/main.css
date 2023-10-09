@@ -1029,8 +1029,17 @@ canvas.particles-js-canvas-el {
 /*-------------------------
          RESUME
 -------------------------*/
+.skill-box .skillbar:not(:last-child){
+  margin-bottom: 70px !important;
+}
+
+.clear-fix{
+  height:60px !important;
+  width: 100% !important;
+  clear: both;
+}
 .timeline-items {
-  padding: 30px;
+  padding: 40px;
   margin-top: 30px;
 }
 
@@ -1149,6 +1158,7 @@ canvas.particles-js-canvas-el {
 
 .services-item h5 {
   margin-top: 8px;
+  font-size: 14px !important;
 }
 
 /*-------------------------
