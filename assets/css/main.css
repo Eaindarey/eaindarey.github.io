@@ -1164,6 +1164,11 @@ canvas.particles-js-canvas-el {
 /*-------------------------
          PORTFOLIO
 -------------------------*/
+.testimonial-image-border img{
+  height: 87px !important;
+  width: 90px !important;
+  border-radius: 100% !important;
+}
 .portfolio .portfolio-filter .list-inline-item:not(:last-child) {
   margin-bottom: 1rem;
 }
